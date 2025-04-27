@@ -3,7 +3,7 @@
 Real-Time Face Recognition using Eigenfaces and SVM
 This project performs face recognition using PCA (Eigenfaces) and SVM classifier. It also includes real-time detection via webcam.
 
-# Requirements
+## Requirements
 Python 3.x
 
 pip (Python package installer)
