@@ -16,21 +16,21 @@ pip install opencv-python numpy matplotlib scikit-learn gdown joblib
 3. Program Flow:
 - The script will automatically download the dataset (face_recognition.zip) from Google Drive and extract it.
 - Preprocessing:
-  a. Load all face images from the dataset.
-  b. Detect faces using Haar Cascade Classifier.
-  c. Crop, resize, and flatten the faces.
+  1. Load all face images from the dataset.
+  2. Detect faces using Haar Cascade Classifier.
+  3. Crop, resize, and flatten the faces.
 - Training:
-  a. The data is split into training and testing sets.
-  b. A pipeline consisting of Mean Centering, PCA, and SVM is trained.
+  1. The data is split into training and testing sets.
+  2. A pipeline consisting of Mean Centering, PCA, and SVM is trained.
 - Evaluation:
-  a. Prints a classification report.
-  b. Plots the cumulative explained variance of PCA.
-  c. Displays eigenfaces (PCA components).
+  1. Prints a classification report.
+  2. Plots the cumulative explained variance of PCA.
+  3. Displays eigenfaces (PCA components).
 - Model Saving: the trained model is saved as eigenface_pipeline.pkl.
 - Real-time Recognition:
-  a. Activates the webcam.
-  b. Detects and recognizes faces in real-time.
-  c. Displays the label and confidence score on the screen.
+  1. Activates the webcam.
+  2. Detects and recognizes faces in real-time.
+  3. Displays the label and confidence score on the screen.
 - Exit the Webcam: press q on your keyboard to quit the webcam display.
 
 ## Notes
